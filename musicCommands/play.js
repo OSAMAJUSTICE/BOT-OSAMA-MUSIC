@@ -31,7 +31,7 @@ let currentConnection;
 let currentMessage; 
 function createPlayer() {
   if (!player) {
-    player = createAudioPlayer();
+    player = createAudioPlayer(ش;شغل;play) 
     player.on(AudioPlayerStatus.Idle, async () => {
       await playNextSong(currentConnection, currentMessage);
     });
